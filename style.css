@@ -1,15 +1,15 @@
 @font-face {
-    font-family: "Gilroy-Bold"; 
-    src: url("../fonts/Gilroy-Bold.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-    font-family: "Gilroy-Medium"; 
-    src: url("../fonts/Gilroy-Medium.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 body {
@@ -21,11 +21,18 @@ body {
     font-family: "Gilroy-Medium";
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -38,23 +45,46 @@ a {
     text-decoration: none;
 }
 
-.header {
-    height: 88px;
-    border-bottom: 2px solid #828282;
+ul {
+    padding: 0;
+    margin: 0;
 }
 
 .container {
     margin: 0 auto;
     width: 950px;
+    height: 100%;
+}
+
+.header {
+    height: 90px;
+}
+
+.header__inner {
+    height: 100%;
+    border-bottom: 2px solid #828282;
+}
+
+.nav {
+    line-height: 90px;
 }
 
 .nav__list {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
-.nav__item {
+.nav__link {
     font-family: "Gilroy-Bold";
+    color: #828282;
+    padding: 0 3px;
+}
+
+.nav__link.active {
+    color: #070707;
+}
+
+.main {
+    height: 680px;
 }
