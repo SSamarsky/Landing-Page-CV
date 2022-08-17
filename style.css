@@ -79,6 +79,11 @@ ul {
     font-family: "Gilroy-Bold";
     color: #828282;
     padding: 0 3px;
+    transition: color .3s linear;
+}
+
+.nav__link:hover {
+    color : #070707;
 }
 
 .nav__link.active {
@@ -87,4 +92,44 @@ ul {
 
 .main {
     height: 680px;
+}
+
+.intro__info {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.info-name {
+    font-size: 42px;
+}
+
+.info-myself {
+    line-height: 22px;
+}
+
+.toggle-lang {
+    font-size: 16px;
+    font-family: "Gilroy-Bold";
+    display: flex;
+    transform: rotate(-90deg) translate(25px, 130%);
+}
+
+.toggle__btn {
+    color: #828282;
+    cursor: pointer;
+    transition: color .3s linear;
+}
+
+.toggle__btn:hover {
+    color: #070707;
+}
+
+.toggle__btn.active {
+   color: #070707;
+}
+
+.dividing-line {
+    padding: 0 5px;
 }
