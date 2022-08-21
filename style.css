@@ -12,10 +12,15 @@
     font-weight: normal;
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    line-height: 22px;
     color: #070707;
     background-color: #fff;
     font-family: "Gilroy-Medium";
@@ -95,7 +100,7 @@ ul {
 }
 
 .intro__info {
-    padding: 30px 0;
+    padding: 50px 0 60px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -103,6 +108,7 @@ ul {
 
 .info-name {
     font-size: 42px;
+    line-height: 1.2;
 }
 
 .info-myself {
@@ -132,4 +138,55 @@ ul {
 
 .dividing-line {
     padding: 0 5px;
+}
+
+.into__photo {
+    margin-bottom: 100px;
+    width: 100%;
+    min-height: 350px;
+    background-color: #383737;
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    width: 100%;
+    min-height: 506px;
+    background-color: #F6F6F6;
+}
+
+.about__inner {
+    padding: 120px 0 50px 0;
+}
+
+.section__title {
+    margin-bottom: 30px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.info-text {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills {
+    width: 100%;
+    min-height: 600px;
+}
+
+.skills__inner {
+    padding: 85px 0 100px 0;
+}
+
+.skill__title {
+    margin-bottom: 60px;
+}
+
+.section__text {
+    text-align: center;
 }
