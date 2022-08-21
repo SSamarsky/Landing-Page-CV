@@ -95,10 +95,6 @@ ul {
     color: #070707;
 }
 
-.main {
-    height: 680px;
-}
-
 .intro__info {
     padding: 50px 0 60px 0;
     display: flex;
@@ -145,7 +141,7 @@ ul {
     width: 100%;
     min-height: 350px;
     background-color: #383737;
-    background-image: url("");
+    background-image: url("./images/image-js.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,21 +175,44 @@ ul {
     min-height: 600px;
 }
 
-.skills__inner {
-    padding: 85px 0 100px 0;
-}
-
 .skill__title {
     margin-bottom: 60px;
+    padding-top: 85px;
 }
 
 .section__text {
+    margin-bottom: 50px;
     text-align: center;
+}
+
+.skills__inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__item {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.skills__item-fix {
+    width: 175px;
+}
+
+.item-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: "Gilroy-Bold";
+}
+
+.skills-img {
+    width: 100%
 }
 
 .projects {
     width: 100%;
-    min-height: 506px;
+    min-height: 600px;
     background-color: #F6F6F6;
 }
 
@@ -209,3 +228,31 @@ ul {
 .contacts__title {
     padding-top: 85px;
 }
+
+
+
+.footer {
+    width: 100%;
+    min-height: 90px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #828282;
+}
+
+.footer__item {
+    padding: 35px 3px 0 3px;
+    color: #828282;
+    font-family: "Gilroy-Bold";
+}
+
+.footer__link {
+    transition: color .3s ease;
+}
+
+.footer__link:hover {
+    color: #070707;
+}
+
