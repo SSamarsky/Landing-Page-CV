@@ -190,3 +190,22 @@ ul {
 .section__text {
     text-align: center;
 }
+
+.projects {
+    width: 100%;
+    min-height: 506px;
+    background-color: #F6F6F6;
+}
+
+.projects__title {
+    padding-top: 85px;
+}
+
+.contacts {
+    width: 100%;
+    min-height: 506px;
+}
+
+.contacts__title {
+    padding-top: 85px;
+}
